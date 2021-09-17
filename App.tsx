@@ -1,13 +1,17 @@
-import React from 'react'
-import { View, Text } from 'react-native'
-import ScrollFlatList from './ScrollFlatList'
+import {NavigationContainer} from '@react-navigation/native';
+import React from 'react';
+import BottomTabs from './BottomTabs';
+import MyNavigationStack from './MyNavigationStack';
+import Example from './Example';
 
 export const App = () => {
-  return(
-    <View>
-      <ScrollFlatList />
-    </View>
-  )
-}
+  return (
+    <NavigationContainer>
+      {/* <MyNavigationStack /> */}
+      <Example />
+      {/* <BottomTabs /> */}
+    </NavigationContainer>
+  );
+};
 
-export default App
+export default App;
