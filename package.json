@@ -21,8 +21,10 @@
     "react-native-paper": "^4.9.2",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.7.2",
+    "react-native-shared-element": "^0.8.0-alpha.3",
     "react-native-vector-icons": "^8.1.0",
-    "react-native-webview": "^11.13.0"
+    "react-native-webview": "^11.13.0",
+    "react-navigation-shared-element": "^5.0.0-alpha1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
